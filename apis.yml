@@ -1,8 +1,26 @@
 aid: vertical-semiconductor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertical-semiconductor.png
 name: Vertical Semiconductor
-description: 'Vertical Semiconductor is a company surfaced as a portfolio company of playground-global
-  and added to the API Evangelist network as a stub for enrichment. Sector: compute. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Vertical Semiconductor is an MIT spinout developing next-generation vertical
+  Gallium Nitride (GaN) power devices for AI data centers and grid infrastructure. Built on
+  a decade of research from MIT''s Palacios Group, its vertical GaN transistors push energy
+  conversion closer to the chip with less power loss and heat, targeting high-voltage
+  applications from 100V to over 2kV. The company claims up to 30% higher efficiency, a 50%
+  smaller power footprint, and 10% lower total cost of ownership versus silicon, and has
+  demonstrated its platform on 8-inch wafers using standard silicon CMOS manufacturing. It is
+  a hardware/deep-tech power-electronics company with no public API, developer portal, SDK, or
+  OpenAPI surface. Backed by Playground Global.'
 url: https://raw.githubusercontent.com/api-evangelist/vertical-semiconductor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Compute
+- Semiconductor
+- Power Electronics
+- Gallium Nitride
+- Data Center
+- Grid Infrastructure
+- Hardware
+- AI Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://verticalsemi.com/
+- type: Blog
+  url: https://verticalsemi.com/news
+- type: PrivacyPolicy
+  url: https://verticalsemi.com/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vertical-semiconductor
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
