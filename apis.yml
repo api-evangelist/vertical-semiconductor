@@ -48,7 +48,7 @@ tags:
 - Semiconductors
 - Power Electronics
 - Gallium Nitride
-- Data-Center
+- Data Center
 - Grid Infrastructure
 - Hardware
 - AI Infrastructure
@@ -62,6 +62,7 @@ tags_raw:
 - Grid Infrastructure
 - Hardware
 - AI Infrastructure
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
